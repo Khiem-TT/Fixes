@@ -2,7 +2,7 @@ function main() {
     let message: string;
     let total: number = 100;
     let isProduction = true;
-    let prices: Array<number> = [120, 88, "60"];
+    let prices: Array<number> = [120, 88, 60];
     let languages: string[] = ['vi', 'en-us'];
     let now = new Date();
     let unknown: any;
@@ -27,8 +27,7 @@ function main() {
     isProduction = false;
     unknown = Direction.UP;
     unknown = 'changed';
-    const post: IPost = {};
-    message = 50;
+    message = '50';
 
     function getPost(postId: string): IPost {
         // do something to retrieve post
@@ -41,8 +40,5 @@ function main() {
     }
 }
 
-
-function main() {
-}
 
 main();
